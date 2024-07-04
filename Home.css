@@ -1,0 +1,597 @@
+body{
+    overflow-x: hidden;
+}
+.container{
+    background-image: url("https://templatemo.com/templates/templatemo_589_lugx_gaming/assets/images/banner-bg.jpg");
+    height: 150vh;
+    width: 100vw;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+    
+    
+
+}
+.header{
+    
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    color: rgb(238, 238, 234);
+    background-color: blue;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    left: 0;
+    padding: 30px;
+    padding-left: 150px;
+    height: 50px;
+    width: 90vw; 
+    z-index: 100;
+    
+    
+}
+a{ 
+
+    font-size: 20px;
+    font-weight: 300;
+    justify-content: space-between;
+    color: white;
+    margin-right:  20px;
+    text-decoration: none;
+    flex-direction: row;
+    display: flex;
+    
+}
+.button1{
+    font-size: 20px;
+    background-color:rgb(101, 101, 221);
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: auto;
+    transition: 0.5s;
+
+}
+.Button2{
+    font-size: 15px;
+    background-color: crimson;
+    border-radius: 30px;
+    border: none;
+    width: 100px;
+    
+    
+}
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    margin-right: 400px;
+    
+}
+button:hover{
+    background-color: rgb(200, 200, 235);
+}
+.heading{
+    position: absolute;
+    color: white;
+    left: 85px;
+    top: 250px;
+    line-height: 30px;
+    height: 400px;
+    width: 650px;
+    margin-left: 40px;
+
+}
+h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+   
+
+}
+
+h1{
+    font-size: 48px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    
+}
+.under{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    height: 5vh;
+    width: 20vw;
+}
+p{
+    font-size: 18px;
+    line-height: 28px;
+    font-family: sans-serif;
+    margin-top :50px; 
+
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    top: 20px;
+}
+#searchtype{
+    height: 45px;
+    position: relative;
+    width: 40vw;
+    background-color: aliceblue;
+    border-radius: 30px;
+    border: none;
+    padding: 5px;
+    padding-left:  15px; 
+}
+.button3{
+    height: 55px;
+    background-color: rgb(236, 64, 98);
+    border-radius:30px ;
+    padding: 5px;
+    position: absolute;
+    margin-left: 500px;
+    border: none;
+    justify-content: end;
+}
+.container3{
+    background-image: url("https://templatemo.com/templates/templatemo_589_lugx_gaming/assets/images/banner-image.jpg");
+    height:65vh ;
+    width: 25vw;
+    padding: 10px;
+    margin-left: 60vw;
+    position: absolute;
+    top: 25%;
+    left: 60px;
+    border-radius: 25px 25px 25px 25px;
+
+}
+.box1{
+    position: absolute;
+    height: 30px;
+    background-color: rgb(123, 123, 238);
+    width: 70px;
+    border-radius: 25px;
+    padding-top: 15px;
+    color: azure;
+    text-align: center;
+    font-size: 20px;
+    left: 21vw;
+    font-weight: bold;  
+}
+.box2{
+    position: absolute;
+    height: 70px;
+    background-color: rgb(156, 48, 70);
+    width: 80px;
+    border-radius: 40px;
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+    top: 80%;
+    right: 22vw;
+
+}
+.container4{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 90%;
+    margin-left: 100px;
+
+}
+.container5{
+    background-color:white;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 10px 10px 20px ;
+    margin: 20px;
+    
+}
+.image{
+    background-color: rgb(73, 73, 192);
+    height: 25%;
+    width: 25%;
+    align-items: center;
+    margin-top: 20%;
+    padding: 10px;
+    margin-left: 30%;
+    
+}
+
+.image:hover{
+    background-color: crimson;
+}
+.data{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 10%;
+    
+}
+.trending{
+    color: crimson;
+    position: absolute;
+    top: 150%;
+    left: 110px;
+    font-weight: bold;
+
+}
+.container6{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:155%;
+    left:110px;
+}
+.trending2{
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+}
+.image6{
+    background-color: crimson;
+    height: 10%;
+    width: 10%;
+    margin: 15%;
+    margin-left: 80%;
+    padding: 5px;
+    
+}
+
+.image6:hover{
+    background-color:blue;
+}   
+.button4{
+    height: 55px;
+    background-color: rgb(236, 64, 98);
+    border-radius:30px ;
+    padding: 5px;
+    width: 10vw;
+    margin-left: 600px;
+    border: none;
+}
+.container7{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 170%;
+    margin-left: 100px;
+
+}
+.container8{
+    background-color:aliceblue;
+    border-radius: 20px;
+    height: 320px;
+    width: 250px;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    box-shadow: 10px 10px 20px ;
+    margin: 20px;
+    
+}
+.image2{
+    height:200px ;
+    width: 250px;
+    border-radius: 20px 20px 20px 20px;
+}
+.box3{
+    position: absolute;
+    height: 30px;
+    background-color: rgb(29, 29, 238);
+    width: 70px;
+    border-radius: 20px;
+    color: azure;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold; 
+    padding: 5px;
+    margin-left: 13%;
+}
+ .text1{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(49, 63, 63);
+    position: absolute;
+    margin: 20px;  
+}
+.text2{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(49, 63, 63);
+    position: absolute;
+    top: 70%;
+    margin: 20px;  
+}
+.container9{
+    position: relative;
+    top: 220%;
+    background-color:rgb(250, 250, 245);
+    height: 120vh;
+    width: 100vw;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.container10{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top:20%;
+    left:90px;
+}
+
+.trending3{
+    color: crimson;
+    position: absolute;
+    top: 10%;
+    left: 110px;
+    font-weight: bold;
+}
+.trending4{
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+}
+.button5{
+    height: 55px;
+    background-color: rgb(236, 64, 98);
+    border-radius:30px ;
+    padding: 5px;
+    width: 10vw;
+    margin-left: 600px;
+    border: none;
+}
+.container11{
+    background-color: white;
+    border-radius: 20px;
+    height: 350px;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+    margin-top: 100px;
+}
+.image3{
+    height: 175px;
+    width: 200px;
+    border-radius: 20px 20px 20px 20px;
+}
+.text3{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(49, 63, 63);
+    
+     
+}
+.text4{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(49, 63, 63);
+    margin: 20px
+}
+.button6{
+    height: 55px;
+    background-color: rgb(236, 64, 98);
+    border-radius:30px ;
+    padding: 5px;
+    width: 10vw;
+    margin-top: 8px;
+    border: none;
+}
+.container12{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    top: 100%;
+    margin-left: 40%;
+}
+.trending5{
+    color: crimson;
+    position: absolute;
+    top: 10%;
+    font-weight: bold;
+    text-align: right;
+    
+}
+.trending6{
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+    top: 20%;
+    margin-top: 60px;
+}
+.container13{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top:120%;
+    left:80px;
+
+}
+.container14{
+    background-color: #1e71ee;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    left: 80px;
+    margin-left: 20px;
+}
+.image4{
+    
+    height: 170px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.text5{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+   
+}
+.container15{
+    flex-direction: row;
+    display: flex;
+    position: absolute;
+    
+}
+.container16{
+    position: relative;
+    top: 220vh;
+    left: 75vh;
+}
+.image5{
+    height: 80vh;
+    width: 40vw;
+    
+}
+.container17{
+    background-color: azure;
+    height:110vh ;
+    width: 30vw;
+    border-radius: 20px;
+    border-width: 1px;
+    position: absolute;
+    top: 300%;
+    left: 30vh;
+}
+.text6{
+    color: crimson;
+    font-size: 15px;
+    position: relative;
+    top: 8%;
+    left: 12%;
+
+    
+}
+.text7{
+    color: black;
+    font-weight: bold;
+    font-size:  50px;
+    padding: 10%;
+
+}
+.text8{
+    
+    padding: 20px;
+    
+}
+.button7{
+    height: 55px;
+    background-color: rgb(236, 64, 98);
+    border-radius:30px ;
+    padding: 5px;
+    width: 10vw;
+    margin-left: 35%;
+    border: none;
+}
+.container18{
+    background-color: azure;
+    height:85vh ;
+    width: 30vw;
+    border-radius: 20px;
+    border-width: 1px;
+    position: absolute;
+    top: 330%;
+    left: 140vh;
+}
+.text9{
+    color: crimson;
+    font-size: 15px;
+    position: relative;
+    top: 8%;
+    left: 12%;
+
+    
+}
+.text10{
+    color: black;
+    font-weight: bold;
+    font-size:  50px;
+    padding: 10%;
+
+}
+span{
+    color: blue;
+}
+#searchtype2{
+    flex-direction: row;
+    height: 45px;
+    position: relative;
+    width: 10vw;
+    background-color: aliceblue;
+    border-radius: 30px;
+    border: none;
+    padding: 5px;
+    padding-left: 10px;
+    left: 20px;
+}
+.button8{
+    height: 55px;
+    background-color: rgb(236, 64, 98);
+    border-radius:30px ;
+    padding: 5px;
+    position: absolute;
+    width: 40%;
+    margin-left: 0px;
+    border: none;
+    justify-content: end;
+}
+.container19{
+    background-image: url("https://templatemo.com/templates/templatemo_589_lugx_gaming/assets/images/banner-bg.jpg");
+    height: 25vh;
+    
+    width: 100vw;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    position: relative;
+    top: 330%;
+}
+p{
+    color: white;
+    text-align: center;
+}
+@media(max-width:576px){
+    .container14{
+        background-color: black;
+    }
+}
+
+    
+
+@media(max-width:500px){
+    .container5{
+        background-color: blue;
+    }
+}
